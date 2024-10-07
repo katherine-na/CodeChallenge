@@ -34,9 +34,7 @@ const TodoApp = () => {
   // Tareas completadas
   const taskComplete = (taskId) => {
     setTask(
-      task.map((task) =>
-        task.id === taskId ? { ...task, completed: !task.complete } : task
-      )
+      task.map((task) => task.id === taskId ? { ...task, completed: !task.completed } : task)
     );
   };
 
@@ -60,7 +58,7 @@ const TodoApp = () => {
       <FilterButtons setFilter={setFilter} />
       <TodoItem addTask={AddTask} />
       <TaskList
-        task={task}
+        task={filteredTasks}
         taskComplete={taskComplete}
         deleteTask={deleteTask}
       />
