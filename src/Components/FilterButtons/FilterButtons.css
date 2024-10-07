@@ -1,0 +1,12 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button {
+    margin-inline: 15px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgb(201, 201, 252);
+}

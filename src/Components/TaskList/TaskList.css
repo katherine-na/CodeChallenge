@@ -1,0 +1,18 @@
+.task-list-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: 1px solid gray;
+    margin-block: 25px;
+}
+
+.btn-complete {
+    
+}

@@ -1,0 +1,15 @@
+.form-task {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input-task {
+    width: 400px;
+    height: 30px;
+}
+
+.btn-task {
+    height: 36px;
+    margin-inline: 5px;
+}
